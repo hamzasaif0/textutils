@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './component/Navbar';
-import Aboutus from './component/Aboutus';
+// import Aboutus from './component/Aboutus';
 import Text from './component/Text';
 import React ,{useState}from 'react'
 import Alert from './component/Alert';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route,
+//   Link
+// } from "react-router-dom";
 
 function App() {
   const [mode,setmode] = useState('light');
@@ -41,8 +41,13 @@ function App() {
 
   return (
    <>
-    
-    <Router>
+  <div>
+    <Navbar text = "TextUtils" mode={mode} togglemode={togglemode}/>
+    <Alert alert={alert}/>
+    <Text mode={mode}  alert={showalert}/>
+   
+    </div>
+    {/* <Router>
     <Navbar text = "TextUtils" mode={mode} togglemode={togglemode}/>
     <Alert alert={alert}/>
     <div className="container my-3">
@@ -55,7 +60,7 @@ function App() {
           </Route>
         </Routes>
      </div>
-    </Router>
+    </Router> */}
   
    
     
