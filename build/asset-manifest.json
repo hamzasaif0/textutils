@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hamzasaif0/tryonce.git/static/css/main.dea5085d.css",
-    "main.js": "/hamzasaif0/tryonce.git/static/js/main.f3a61885.js",
-    "static/js/453.af4227df.chunk.js": "/hamzasaif0/tryonce.git/static/js/453.af4227df.chunk.js",
-    "static/media/logo.svg": "/hamzasaif0/tryonce.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/hamzasaif0/tryonce.git/index.html",
-    "main.dea5085d.css.map": "/hamzasaif0/tryonce.git/static/css/main.dea5085d.css.map",
-    "main.f3a61885.js.map": "/hamzasaif0/tryonce.git/static/js/main.f3a61885.js.map",
-    "453.af4227df.chunk.js.map": "/hamzasaif0/tryonce.git/static/js/453.af4227df.chunk.js.map"
+    "main.css": "/texts/static/css/main.dea5085d.css",
+    "main.js": "/texts/static/js/main.165ade49.js",
+    "static/js/453.af4227df.chunk.js": "/texts/static/js/453.af4227df.chunk.js",
+    "static/media/logo.svg": "/texts/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/texts/index.html",
+    "main.dea5085d.css.map": "/texts/static/css/main.dea5085d.css.map",
+    "main.165ade49.js.map": "/texts/static/js/main.165ade49.js.map",
+    "453.af4227df.chunk.js.map": "/texts/static/js/453.af4227df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dea5085d.css",
-    "static/js/main.f3a61885.js"
+    "static/js/main.165ade49.js"
   ]
 }
